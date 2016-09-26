@@ -1,0 +1,509 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		13E4B18B1D9976C800343166 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E4B18A1D9976C800343166 /* AppDelegate.swift */; };
+		13E4B18D1D9976C800343166 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E4B18C1D9976C800343166 /* ViewController.swift */; };
+		13E4B1901D9976C800343166 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13E4B18E1D9976C800343166 /* Main.storyboard */; };
+		13E4B1921D9976C800343166 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13E4B1911D9976C800343166 /* Assets.xcassets */; };
+		13E4B1951D9976C800343166 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13E4B1931D9976C800343166 /* LaunchScreen.storyboard */; };
+		13E4B1A01D9976C800343166 /* cooolDiaryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E4B19F1D9976C800343166 /* cooolDiaryTests.swift */; };
+		13E4B1AB1D9976C800343166 /* cooolDiaryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E4B1AA1D9976C800343166 /* cooolDiaryUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		13E4B19C1D9976C800343166 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 13E4B17F1D9976C800343166 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13E4B1861D9976C800343166;
+			remoteInfo = cooolDiary;
+		};
+		13E4B1A71D9976C800343166 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 13E4B17F1D9976C800343166 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13E4B1861D9976C800343166;
+			remoteInfo = cooolDiary;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		13E4B1871D9976C800343166 /* cooolDiary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cooolDiary.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13E4B18A1D9976C800343166 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		13E4B18C1D9976C800343166 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		13E4B18F1D9976C800343166 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		13E4B1911D9976C800343166 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		13E4B1941D9976C800343166 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		13E4B1961D9976C800343166 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13E4B19B1D9976C800343166 /* cooolDiaryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cooolDiaryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		13E4B19F1D9976C800343166 /* cooolDiaryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cooolDiaryTests.swift; sourceTree = "<group>"; };
+		13E4B1A11D9976C800343166 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13E4B1A61D9976C800343166 /* cooolDiaryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cooolDiaryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		13E4B1AA1D9976C800343166 /* cooolDiaryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cooolDiaryUITests.swift; sourceTree = "<group>"; };
+		13E4B1AC1D9976C800343166 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		13E4B1841D9976C800343166 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13E4B1981D9976C800343166 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13E4B1A31D9976C800343166 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13E4B17E1D9976C800343166 = {
+			isa = PBXGroup;
+			children = (
+				13E4B1891D9976C800343166 /* cooolDiary */,
+				13E4B19E1D9976C800343166 /* cooolDiaryTests */,
+				13E4B1A91D9976C800343166 /* cooolDiaryUITests */,
+				13E4B1881D9976C800343166 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		13E4B1881D9976C800343166 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13E4B1871D9976C800343166 /* cooolDiary.app */,
+				13E4B19B1D9976C800343166 /* cooolDiaryTests.xctest */,
+				13E4B1A61D9976C800343166 /* cooolDiaryUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		13E4B1891D9976C800343166 /* cooolDiary */ = {
+			isa = PBXGroup;
+			children = (
+				13E4B18A1D9976C800343166 /* AppDelegate.swift */,
+				13E4B18C1D9976C800343166 /* ViewController.swift */,
+				13E4B18E1D9976C800343166 /* Main.storyboard */,
+				13E4B1911D9976C800343166 /* Assets.xcassets */,
+				13E4B1931D9976C800343166 /* LaunchScreen.storyboard */,
+				13E4B1961D9976C800343166 /* Info.plist */,
+			);
+			path = cooolDiary;
+			sourceTree = "<group>";
+		};
+		13E4B19E1D9976C800343166 /* cooolDiaryTests */ = {
+			isa = PBXGroup;
+			children = (
+				13E4B19F1D9976C800343166 /* cooolDiaryTests.swift */,
+				13E4B1A11D9976C800343166 /* Info.plist */,
+			);
+			path = cooolDiaryTests;
+			sourceTree = "<group>";
+		};
+		13E4B1A91D9976C800343166 /* cooolDiaryUITests */ = {
+			isa = PBXGroup;
+			children = (
+				13E4B1AA1D9976C800343166 /* cooolDiaryUITests.swift */,
+				13E4B1AC1D9976C800343166 /* Info.plist */,
+			);
+			path = cooolDiaryUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		13E4B1861D9976C800343166 /* cooolDiary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13E4B1AF1D9976C800343166 /* Build configuration list for PBXNativeTarget "cooolDiary" */;
+			buildPhases = (
+				13E4B1831D9976C800343166 /* Sources */,
+				13E4B1841D9976C800343166 /* Frameworks */,
+				13E4B1851D9976C800343166 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = cooolDiary;
+			productName = cooolDiary;
+			productReference = 13E4B1871D9976C800343166 /* cooolDiary.app */;
+			productType = "com.apple.product-type.application";
+		};
+		13E4B19A1D9976C800343166 /* cooolDiaryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13E4B1B21D9976C800343166 /* Build configuration list for PBXNativeTarget "cooolDiaryTests" */;
+			buildPhases = (
+				13E4B1971D9976C800343166 /* Sources */,
+				13E4B1981D9976C800343166 /* Frameworks */,
+				13E4B1991D9976C800343166 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				13E4B19D1D9976C800343166 /* PBXTargetDependency */,
+			);
+			name = cooolDiaryTests;
+			productName = cooolDiaryTests;
+			productReference = 13E4B19B1D9976C800343166 /* cooolDiaryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		13E4B1A51D9976C800343166 /* cooolDiaryUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13E4B1B51D9976C800343166 /* Build configuration list for PBXNativeTarget "cooolDiaryUITests" */;
+			buildPhases = (
+				13E4B1A21D9976C800343166 /* Sources */,
+				13E4B1A31D9976C800343166 /* Frameworks */,
+				13E4B1A41D9976C800343166 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				13E4B1A81D9976C800343166 /* PBXTargetDependency */,
+			);
+			name = cooolDiaryUITests;
+			productName = cooolDiaryUITests;
+			productReference = 13E4B1A61D9976C800343166 /* cooolDiaryUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		13E4B17F1D9976C800343166 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = Manish;
+				TargetAttributes = {
+					13E4B1861D9976C800343166 = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = YD3NBF7BJY;
+					};
+					13E4B19A1D9976C800343166 = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = YD3NBF7BJY;
+						TestTargetID = 13E4B1861D9976C800343166;
+					};
+					13E4B1A51D9976C800343166 = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = YD3NBF7BJY;
+						TestTargetID = 13E4B1861D9976C800343166;
+					};
+				};
+			};
+			buildConfigurationList = 13E4B1821D9976C800343166 /* Build configuration list for PBXProject "cooolDiary" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 13E4B17E1D9976C800343166;
+			productRefGroup = 13E4B1881D9976C800343166 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13E4B1861D9976C800343166 /* cooolDiary */,
+				13E4B19A1D9976C800343166 /* cooolDiaryTests */,
+				13E4B1A51D9976C800343166 /* cooolDiaryUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		13E4B1851D9976C800343166 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13E4B1951D9976C800343166 /* LaunchScreen.storyboard in Resources */,
+				13E4B1921D9976C800343166 /* Assets.xcassets in Resources */,
+				13E4B1901D9976C800343166 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13E4B1991D9976C800343166 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13E4B1A41D9976C800343166 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		13E4B1831D9976C800343166 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13E4B18D1D9976C800343166 /* ViewController.swift in Sources */,
+				13E4B18B1D9976C800343166 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13E4B1971D9976C800343166 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13E4B1A01D9976C800343166 /* cooolDiaryTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13E4B1A21D9976C800343166 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13E4B1AB1D9976C800343166 /* cooolDiaryUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		13E4B19D1D9976C800343166 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13E4B1861D9976C800343166 /* cooolDiary */;
+			targetProxy = 13E4B19C1D9976C800343166 /* PBXContainerItemProxy */;
+		};
+		13E4B1A81D9976C800343166 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13E4B1861D9976C800343166 /* cooolDiary */;
+			targetProxy = 13E4B1A71D9976C800343166 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		13E4B18E1D9976C800343166 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13E4B18F1D9976C800343166 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		13E4B1931D9976C800343166 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13E4B1941D9976C800343166 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		13E4B1AD1D9976C800343166 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		13E4B1AE1D9976C800343166 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		13E4B1B01D9976C800343166 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = cooolDiary/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MYCOMPANY.cooolDiary;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		13E4B1B11D9976C800343166 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = cooolDiary/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MYCOMPANY.cooolDiary;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		13E4B1B31D9976C800343166 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = cooolDiaryTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MYCOMPANY.cooolDiaryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cooolDiary.app/cooolDiary";
+			};
+			name = Debug;
+		};
+		13E4B1B41D9976C800343166 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = cooolDiaryTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MYCOMPANY.cooolDiaryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cooolDiary.app/cooolDiary";
+			};
+			name = Release;
+		};
+		13E4B1B61D9976C800343166 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = cooolDiaryUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MYCOMPANY.cooolDiaryUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = cooolDiary;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		13E4B1B71D9976C800343166 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = cooolDiaryUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MYCOMPANY.cooolDiaryUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = cooolDiary;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13E4B1821D9976C800343166 /* Build configuration list for PBXProject "cooolDiary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13E4B1AD1D9976C800343166 /* Debug */,
+				13E4B1AE1D9976C800343166 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13E4B1AF1D9976C800343166 /* Build configuration list for PBXNativeTarget "cooolDiary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13E4B1B01D9976C800343166 /* Debug */,
+				13E4B1B11D9976C800343166 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		13E4B1B21D9976C800343166 /* Build configuration list for PBXNativeTarget "cooolDiaryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13E4B1B31D9976C800343166 /* Debug */,
+				13E4B1B41D9976C800343166 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		13E4B1B51D9976C800343166 /* Build configuration list for PBXNativeTarget "cooolDiaryUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13E4B1B61D9976C800343166 /* Debug */,
+				13E4B1B71D9976C800343166 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 13E4B17F1D9976C800343166 /* Project object */;
+}
